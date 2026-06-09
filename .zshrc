@@ -223,8 +223,8 @@ unset rc
 if [ -f ~/.bash_aliases ]; then
   source ~/.bash_aliases
 fi
-if [ -f ~/.keith_aliases ]; then
-  source ~/.keith_aliases
+if [ -f ~/.local_aliases ]; then
+  source ~/.local_aliases
 fi
 
 # terramate
