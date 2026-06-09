@@ -1,4 +1,4 @@
-My OMZ plugin custom folder
+My OMZ custom folder
 
 Install oh-my-zsh from instructions at [Install oh-my-zsh now](https://ohmyz.sh/#install)  
   
