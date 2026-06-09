@@ -220,8 +220,12 @@ fi
 unset rc
 
 # Aliases
-source ~/.bash_aliases
-source ~/.keith_aliases
+if [ -f ~/.bash_aliases ]; then
+  source ~/.bash_aliases
+fi
+if [ -f ~/.keith_aliases ]; then
+  source ~/.keith_aliases
+fi
 
 # terramate
 if [ -f /usr/bin/terramate ]; then
