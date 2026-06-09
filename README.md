@@ -10,7 +10,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 > DESTRUCTIVE!!! If you have an existing omz custom folder back it up or clone elsewhere and integrate manually.
   
 ```bash
-cd cd ~/.oh-my-zsh
+cd ~/.oh-my-zsh
 rm -rfv custom
 git clone --recursive https://github.com/walkerk1980/omz-custom.git custom
 ```  
