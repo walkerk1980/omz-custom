@@ -258,11 +258,6 @@ if [ -f "$aws_completer_path" ]; then
   complete -C "$aws_completer_path" aws
 fi
 
-# Azure CLI
-if [ -f /etc/bash_completion.d/azure-cli ]; then
-  source /etc/bash_completion.d/azure-cli
-fi
-
 # Az cli
 if [ -f /usr/local/etc/bash_completion.d/az ]; then
   source /usr/local/etc/bash_completion.d/az
