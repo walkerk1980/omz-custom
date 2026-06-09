@@ -8,20 +8,6 @@ export HISTFILE=~/.zsh_history
 export HISTSIZE=20000
 export SAVEHIST=20000
 
-## ZSH Plugins
-
-# zsh-syntax-highlighting
-# source ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 
-
-# zsh-history-substring-search
-# source $(brew --prefix)/share/zsh-history-substring-search/zsh-history-substring-search.zsh
-
-# zsh-autocomplete
-# source $(brew --prefix)/share/zsh-autocomplete/zsh-autocomplete.plugin.zsh
-
-# zsh-autosuggestions
-# source ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-
 
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
